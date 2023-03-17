@@ -1,0 +1,15 @@
+C:\Users\abela\source\repos\ConexionFirebaseJson\ConexionFirebaseJson\ConexionFirebaseJson\bin\Debug\netstandard2.0\ConexionFirebaseJson.deps.json
+C:\Users\abela\source\repos\ConexionFirebaseJson\ConexionFirebaseJson\ConexionFirebaseJson\bin\Debug\netstandard2.0\ConexionFirebaseJson.dll
+C:\Users\abela\source\repos\ConexionFirebaseJson\ConexionFirebaseJson\ConexionFirebaseJson\bin\Debug\netstandard2.0\ConexionFirebaseJson.pdb
+C:\Users\abela\source\repos\ConexionFirebaseJson\ConexionFirebaseJson\ConexionFirebaseJson\obj\Debug\netstandard2.0\ConexionFirebaseJson.csproj.AssemblyReference.cache
+C:\Users\abela\source\repos\ConexionFirebaseJson\ConexionFirebaseJson\ConexionFirebaseJson\obj\Debug\netstandard2.0\ConexionFirebaseJson.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\abela\source\repos\ConexionFirebaseJson\ConexionFirebaseJson\ConexionFirebaseJson\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\abela\source\repos\ConexionFirebaseJson\ConexionFirebaseJson\ConexionFirebaseJson\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\abela\source\repos\ConexionFirebaseJson\ConexionFirebaseJson\ConexionFirebaseJson\obj\Debug\netstandard2.0\ConexionFirebaseJson.AssemblyInfoInputs.cache
+C:\Users\abela\source\repos\ConexionFirebaseJson\ConexionFirebaseJson\ConexionFirebaseJson\obj\Debug\netstandard2.0\ConexionFirebaseJson.AssemblyInfo.cs
+C:\Users\abela\source\repos\ConexionFirebaseJson\ConexionFirebaseJson\ConexionFirebaseJson\obj\Debug\netstandard2.0\ConexionFirebaseJson.csproj.CoreCompileInputs.cache
+C:\Users\abela\source\repos\ConexionFirebaseJson\ConexionFirebaseJson\ConexionFirebaseJson\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\abela\source\repos\ConexionFirebaseJson\ConexionFirebaseJson\ConexionFirebaseJson\obj\Debug\netstandard2.0\ConexionFirebaseJson.dll
+C:\Users\abela\source\repos\ConexionFirebaseJson\ConexionFirebaseJson\ConexionFirebaseJson\obj\Debug\netstandard2.0\refint\ConexionFirebaseJson.dll
+C:\Users\abela\source\repos\ConexionFirebaseJson\ConexionFirebaseJson\ConexionFirebaseJson\obj\Debug\netstandard2.0\ConexionFirebaseJson.pdb
+C:\Users\abela\source\repos\ConexionFirebaseJson\ConexionFirebaseJson\ConexionFirebaseJson\obj\Debug\netstandard2.0\ref\ConexionFirebaseJson.dll
