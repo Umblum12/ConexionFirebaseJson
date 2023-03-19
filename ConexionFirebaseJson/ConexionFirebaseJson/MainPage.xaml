@@ -4,40 +4,39 @@
              x:Class="ConexionFirebaseJson.MainPage">
 
     <StackLayout Padding="12,0,12,12" Spacing="6">
-        <Button Text="LLamando a la API" Clicked="Button_Clicked" />
-        <Button Text="LLamando a la API" Clicked="Button_Clicked1" />
+        <Button Text="Mostrar Historial" Clicked="Button_Clicked" />
+        <Button Text="Inserar un registro" Clicked="Button_Clicked1" />
 
         <Grid RowDefinitions="60,*" BackgroundColor="White">
-        <Label Text="POKEDEX" 
+            <Label Text="Historial" 
                HorizontalOptions="Center"
                VerticalOptions="Center"
                FontSize="40"
                FontAttributes="Bold"
                TextColor="Pink"/>
-        <CollectionView BackgroundColor="Red"
+            <CollectionView BackgroundColor="Red"
                         Grid.Row="1"
-                         x:Name="listahistorial"
+                       x:Name="miListView"
                         Margin="0,0,0,0"
                         >
-            <CollectionView.ItemsLayout>
-                <GridItemsLayout Orientation="Vertical" Span="2" HorizontalItemSpacing="10" VerticalItemSpacing="10" />
-            </CollectionView.ItemsLayout>
-            <CollectionView.ItemTemplate>
-                <DataTemplate>
-                    <Grid RowDefinitions="100, *" Margin="10,15,0,0">
-                        <Frame Grid.Row="1" WidthRequest="250" HorizontalOptions="Center" CornerRadius="15" Margin="10,-95,10,0" BackgroundColor="{Binding Colorfondo}" HasShadow="False">
-                            <StackLayout Margin="0,10,0,0">
-                                <Label Text="{Binding Nombre}"/>
-                                <Label Text="{Binding Fecha}" Margin="0,0,0,5" CharacterSpacing="1" FontSize="20" />
-                                <Button Text="{Binding Flujo}" CornerRadius="30" HorizontalOptions="Start" TextTransform="None" HeightRequest="40" BackgroundColor="{Binding Colorpoder}"/>
-                                <Button Text="{Binding Estado}" CornerRadius="30" HorizontalOptions="Start" TextTransform="None" HeightRequest="40" BackgroundColor="{Binding Colorpoder}"/>
-                            </StackLayout>
-                        </Frame>
-                    </Grid>
-                </DataTemplate>
-            </CollectionView.ItemTemplate>
-        </CollectionView>
-        <Button Text="+" Grid.Row="1" HeightRequest="100" WidthRequest="100" VerticalOptions="End" HorizontalOptions="End" CornerRadius="50" Margin="15" FontSize="50" FontAttributes="Bold" BackgroundColor="#FCE412" Command="{Binding Iraregistrocommand}" />
-    </Grid>
+                <CollectionView.ItemsLayout>
+                    <GridItemsLayout Orientation="Vertical" Span="2" HorizontalItemSpacing="10" VerticalItemSpacing="10" />
+                </CollectionView.ItemsLayout>
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <Grid RowDefinitions="100, *" Margin="10,15,0,0">
+                            <Frame Grid.Row="1" WidthRequest="250" HorizontalOptions="Center" CornerRadius="15" Margin="10,-95,10,0" BackgroundColor="{Binding Colorfondo}" HasShadow="False">
+                                <StackLayout Margin="0,10,0,0">
+                                    <Label Text="{Binding Nombre}" />
+                                    <Label Text="{Binding Flujo}" />
+                                    <Label Text="{Binding Fecha}" />
+                                    <Label Text="{Binding Estado}" />
+                                </StackLayout>
+                            </Frame>
+                        </Grid>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+        </Grid>
     </StackLayout>
 </ContentPage>
